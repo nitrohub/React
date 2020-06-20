@@ -1,0 +1,31 @@
+<html>
+ <head>
+	<script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+ <head>
+	<body>	
+		<div id="app"></div>
+		<script type="text/babel">
+			class Exercise extends React.Component{
+				render(){
+				const rcolor1 = Math.random()*(255-0)+0;
+				const rcolor2 = Math.random()*(255-0)+0;
+				const rcolor3 = Math.random()*(255-0)+0;
+				const fsize = Math.random()*(40-0)+0;	
+
+				const col = `rgb(${rcolor1},${rcolor2},${rcolor3})`;				
+				const f = fsize+'px';
+
+				const dStyle={display:'flex',fontSize: `${f}`,color:'white',alignItems:'center', background : col, width : "200px", height : "50px",justifyContent : 'center'};				
+				
+
+				return(<div style={dStyle}>Random Box
+						
+					</div>);
+	};
+		}
+			ReactDOM.render(<Exercise />, document.getElementById("app"));
+		</script>
+	</body>
+</html>
