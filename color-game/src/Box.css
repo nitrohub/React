@@ -1,0 +1,9 @@
+.flexBox{
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.box{
+    width:  150px;
+    height: 150px;
+}
