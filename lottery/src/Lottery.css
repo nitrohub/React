@@ -1,0 +1,16 @@
+.Lottery{
+    border: 2px solid black;
+    background: pink;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    line-height: 100px;
+    margin-bottom:20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.Flexbox{
+  display: flex;
+  justify-content: center;
+}

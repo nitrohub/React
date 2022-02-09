@@ -1,0 +1,25 @@
+.Poke-card{
+    background:#D3D3D3;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px;
+    padding : 10px;
+    width: 17vw;
+}
+
+.Frame{
+    text-align: center;
+}
+
+.Winner{
+  color: green;
+}
+
+.Looser{
+    color: red;
+}
+
+.Tie{
+    color: orange;
+}
